@@ -5,3 +5,60 @@
 	display:none;
 	position:relative;
 }
+
+.jumbotron{
+	text-align: center;
+}
+
+
+#game-screen.show {
+	transition-delay: 5s;
+}
+
+.show {
+	max-height: 1000px;
+	transition-duration: 1s;
+	display: block;
+}
+
+.hide {
+	max-height: 0;
+	overflow: hidden;
+	transition-duration: 1s;
+}
+
+#game-task {
+  text-align: center;
+  overflow: hidden;  
+}
+
+#start{
+	margin: 0 45%;
+	margin-top: 15%;
+	font-size: 30px;
+	display: inline-block;
+	-webkit-tap-highlight-color: transparent;
+	transform: translateZ(0);
+	box-shadow: 0 0 1px transparent;
+}
+
+form{
+	width: 30%;
+	margin: 25px auto;
+}
+
+@keyframes pulse-shrink {
+	to {
+	  transform: scale(0.9);
+	}
+}
+#start:hover {
+	animation-name: pulse-shrink;
+	animation-duration: 0.3s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	color:#28a745;
+	background-color: white;
+}
+
