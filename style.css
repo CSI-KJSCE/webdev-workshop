@@ -8,9 +8,6 @@
 
 .glow{
 	display: inline-block;
-  	transition-duration: 0.3s;
-  	transition-property: box-shadow;
-  	transform: translateZ(0);
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);  
 }
 

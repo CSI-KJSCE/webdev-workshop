@@ -1,8 +1,8 @@
 var start = new Date().getTime();
 var bestTime = 100;
 
-var start = document.getElementById("start");
-start.addEventListener('click', function() {
+var startg = document.getElementById("start");
+startg.addEventListener('click', function() {
     toggleClasses(document.getElementById('start-screen'),'hide', 'show');
     toggleClasses(document.getElementById('game-screen'), 'hide','show');
     var user = document.getElementById("user").value
