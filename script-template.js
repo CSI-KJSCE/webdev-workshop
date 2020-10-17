@@ -13,13 +13,15 @@ function getRandomColour() {
     /* ADDING COLORS USING MATH.RANDOM() */
     
 
-
+    
     return color;
 }
+
 function makeShapeAppear() {
     var top = Math.random() * 400;
     var left = Math.random() * 1200;
     var width = (Math.random() * 400) + 100;
+    var height = (Math.random() * 400) + 100;
     /* ADDING CIRCLE OR SQUARE USING MATH.RANDOM() AND PROBABILITY */
     
 
@@ -27,7 +29,7 @@ function makeShapeAppear() {
     
 
     document.getElementById("shape").style.width = width + "px";
-    document.getElementById("shape").style.height = width + "px";
+    document.getElementById("shape").style.height = height + "px";
     document.getElementById("shape").style.top = top + "px";
     document.getElementById("shape").style.left = left + "px";
     document.getElementById("shape").style.display = "block";
@@ -35,6 +37,7 @@ function makeShapeAppear() {
     start = new Date().getTime();
 
 }
+
 function appearAfterDelay() {
     /* HOW TO MAKE SHAPE APPEAR AFTER DELAY */
     
